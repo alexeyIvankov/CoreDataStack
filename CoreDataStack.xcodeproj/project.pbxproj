@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF14F41C1DE4935900FCECF4 /* СoreВataStack.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FF14F41B1DE4935900FCECF4 /* СoreВataStack.podspec */; };
 		FF32ADFF1DDA0696001608BB /* CoreDataStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF32ADF51DDA0696001608BB /* CoreDataStack.framework */; };
 		FF32AE041DDA0696001608BB /* CoreDataStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF32AE031DDA0696001608BB /* CoreDataStackTests.swift */; };
 		FF32AE061DDA0696001608BB /* CoreDataStack.h in Headers */ = {isa = PBXBuildFile; fileRef = FF32ADF81DDA0696001608BB /* CoreDataStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF14F41B1DE4935900FCECF4 /* СoreВataStack.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "СoreВataStack.podspec"; sourceTree = "<group>"; };
 		FF32ADF51DDA0696001608BB /* CoreDataStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF32ADF81DDA0696001608BB /* CoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
 		FF32ADF91DDA0696001608BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		FF32ADEB1DDA0696001608BB = {
 			isa = PBXGroup;
 			children = (
+				FF14F41B1DE4935900FCECF4 /* СoreВataStack.podspec */,
 				FF32ADF71DDA0696001608BB /* CoreDataStack */,
 				FF32AE021DDA0696001608BB /* CoreDataStackTests */,
 				FF32ADF61DDA0696001608BB /* Products */,
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF14F41C1DE4935900FCECF4 /* СoreВataStack.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +408,7 @@
 				FF32AE0B1DDA0696001608BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF32AE0C1DDA0696001608BB /* Build configuration list for PBXNativeTarget "CoreDataStackTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +417,7 @@
 				FF32AE0E1DDA0696001608BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
